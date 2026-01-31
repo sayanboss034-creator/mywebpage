@@ -1,60 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Harindanga High School</title>
 
-  <!-- Mobile responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+
+<head>
+
+<title>Harindanga High School</title>
+
+</head>
+
+<body style="margin:0;">
+
+<div style="
+
+background-color: #FFFBEA;
+
+height:150px;
+
+display: flex;
+
+align-items:center;
+
+justify-content: center;>
+<font Face="cambria" size="10" color="#7A1C1C">
+<h1 style="margin:0; color:maroon;">
+Harindanga High School
+</font>
+</h1>
+
+</div>
+<font Face="Book man old style" size="6" color="black">
+
+<h4><p align="center"><b><u>Our Gallery</u></b></p></h4>
+ 
+</FONT>
+
+
+
+
+
 
   <style>
-    html, body {
+    body {
       margin: 0;
-      padding: 0;
-      width: 100%;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
     }
 
-    /* Header */
+    /* ===== HEADER ===== */
     .header {
-      background-color: #FFF8EA;
-      height: 150px;
-      width: 100%;
+      background: #fff3c4;
+      padding: 20px;
       display: flex;
       align-items: center;
-      justify-content: center;
+      gap: 15px;
+    }
+
+    .header img {
+      width: 70px;
     }
 
     .header h1 {
       margin: 0;
       color: maroon;
-      font-family: Cambria;
     }
 
-    /* Gallery title */
-    .gallery-title {
+    .header small {
+      color: green;
+      font-weight: bold;
+    }
+    /* ===== GALLERY TITLE ===== */
+    .title {
       text-align: center;
-      font-family: "Bookman Old Style";
+      margin: 30px 0 20px;
       font-size: 24px;
       font-weight: bold;
-      margin: 20px 0;
     }
 
-    /* Gallery table */
-    table {
-      margin: auto;
-      border-collapse: collapse;
+    /* ===== GALLERY GRID ===== */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 25px;
+      padding: 20px 80px;
+      justify-items:center;
     }
 
-    td {
-      padding: 5px;
-      border: 1px solid #999;
+    .gallery img {
+      width: 230 px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      background: white;
     }
 
-    img {
-      width: 275px;
-      height: 200px;
-      display: block;
-    }
 
     /* Mobile fix */
     @media (max-width: 768px) {
@@ -62,41 +101,51 @@
         width: 100%;
         height: auto;
       }
-      td {
-        display: block;
-      }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background: #0b2c48;
+      color: white;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      font-size: 14px;
+    }
+
+    .footer h3 {
+      margin-top: 0;
+      color: #ffcc00;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- Header -->
-  <div class="header">
-    <h1>Harindanga High School</h1>
+  
+  
+  <!-- GALLERY -->
+  <div class="gallery">
+    <img src="https://www.harindangahighschool.org.in/img/IMG_2259.jpg"alt="Online imaage" <img src="image.jpg" width="275" height="200" style="display:block; margin:auto;>style="display:block; margin:auto;>
+
+<img src="https://www.harindangahighschool.org.in/img/IMG_2714.jpg"alt="Online imaage" <img src="image.jpg" width="275" height="200" style="display:block; margin:auto;>style="display:block; margin:auto;>
+
+
+
+   <img src="https://www.harindangahighschool.org.in/img/IMG_2720.jpg"alt="Online imaage" <img src="image.jpg" width="275" height="200" style="display:block; margin:auto;>style="display:block; margin:auto;>
+
+
+    <img src="https://www.harindangahighschool.org.in/img/IMG_20190209_102900.jpg"alt="Online imaage" <img src="image.jpg" width="275" height="200" style="display:block; margin:auto;>style="display:block; margin:auto;>
+
+
+<img src="https://www.harindangahighschool.org.in/img/IMG_20190210_145401.jpg"alt="Online imaage" <img src="image.jpg" width="275" height="200" style="display:block; margin:auto;>style="display:block; margin:auto;>
+
+<img src="https://www.harindangahighschool.org.in/img/IMG-20151211-WA0014.jpg"alt="Online imaage" <img src="image.jpg" width="275" height="200" style="display:block; margin:auto;>style="display:block; margin:auto;>
+    
+
+<img src="https://www.harindangahighschool.org.in/img/IMG-20211109-WA0002.jpg"alt="Online imaage" <img src="image.jpg" width="275" height="200" style="display:block; margin:auto;>style="display:block; margin:auto;>
+
+
+   <img src="https://www.harindangahighschool.org.in/img/WP_20160826_002.jpg"alt="Online imaage" <img src="image.jpg" width="275" height="200" style="display:block; margin:auto;>style="display:block; margin:auto;>
   </div>
 
-  <!-- Gallery heading -->
-  <div class="gallery-title">
-    <u>Our Gallery</u>
-  </div>
-
-  <!-- Gallery -->
-  <table>
-    <tr>
-      <td><img src="https://www.harindangahighschool.org.in/img/IMG_2259.jpg" alt="School Image"></td>
-      <td><img src="https://www.harindangahighschool.org.in/img/IMG_2714.jpg"alt="School Image"></td>
-      <td><img src="https://www.harindangahighschool.org.in/img/IMG_2720.jpg" alt="School Image"></td>
-      <td><img src="https://www.harindangahighschool.org.in/img/IMG_20190209_102900.jpg alt="School Image"></td>
-    </tr>
-
-    <tr>
-      <td><img src="https://www.harindangahighschool.org.in/img/IMG_20190210_145401.jpg"alt="School Image"></td>
-      <td><img src=="https://www.harindangahighschool.org.in/img/IMG-20151211-WA0014.jpg"alt="School Image"></td>
-      <td><img src=="https://www.harindangahighschool.org.in/img/IMG-20211109-WA0002.jpg"alt="School Image"></td>
-      <td><img src="https://www.harindangahighschool.org.in/img/WP_20160826_002.jpg"alt="School Image"></td>
-    </tr>
-  </table>
-
-</body>
-</html>
